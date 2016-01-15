@@ -1,0 +1,1 @@
+C:\dev\github\02-CollatzConjecture\SortingAlgorithms\SortingAlgorithms\bin\Debug\SortingAlgorithms.exe.config
