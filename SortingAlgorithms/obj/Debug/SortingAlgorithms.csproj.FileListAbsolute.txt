@@ -1,1 +1,7 @@
 C:\dev\github\02-CollatzConjecture\SortingAlgorithms\SortingAlgorithms\bin\Debug\SortingAlgorithms.exe.config
+C:\dev\github\04-SortingAlgorithms\SortingAlgorithms\bin\Debug\SortingAlgorithms.exe.config
+C:\dev\github\04-SortingAlgorithms\SortingAlgorithms\bin\Debug\SortingAlgorithms.exe
+C:\dev\github\04-SortingAlgorithms\SortingAlgorithms\bin\Debug\SortingAlgorithms.pdb
+C:\dev\github\04-SortingAlgorithms\SortingAlgorithms\obj\Debug\SortingAlgorithms.csprojResolveAssemblyReference.cache
+C:\dev\github\04-SortingAlgorithms\SortingAlgorithms\obj\Debug\SortingAlgorithms.exe
+C:\dev\github\04-SortingAlgorithms\SortingAlgorithms\obj\Debug\SortingAlgorithms.pdb

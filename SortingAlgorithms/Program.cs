@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -40,9 +41,7 @@ namespace SortingAlgorithms
 
         static int[] readFromFile()
         {
-            // implement file read here
-            static int[] readNumbersFromFile()
-{
+          
                 string fileContents = File.ReadAllText("C:\\dev\\data\\unsorted-numbers.txt");
 
                 string[] numbersAsStrings = fileContents.Split(',');
@@ -55,7 +54,7 @@ namespace SortingAlgorithms
                 }
 
                 return numbers;
-            }
+            
 
         }
 
@@ -85,6 +84,21 @@ namespace SortingAlgorithms
             printList("Unsorted List", list);
 
             // implement insertion sort here
+            int temp, j;
+            for(int i = 1; i < list.Length; i++)
+            {
+                temp = list[i];
+                j = i - 1;
+                while(j >=0 && list[j] > temp)
+                {
+                    list[j + 1] = temp;
+                    {
+                        list[j + 1] = list[j];
+                        j--;
+                    }
+                    list[j + 1] = temp;
+                }
+            }
 
             printList("Sorted list", list);
         }
@@ -97,6 +111,7 @@ namespace SortingAlgorithms
                 Console.Write(list[i] + ", ");
             }
             Console.WriteLine();
+            
 
         }
     }
